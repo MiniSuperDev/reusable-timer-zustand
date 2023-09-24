@@ -1,0 +1,33 @@
+body {
+  background: blanchedalmond;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.timers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.timers-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
